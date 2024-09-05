@@ -9,7 +9,7 @@ public class variablesAndDataTypes {
         short age2 = 30; 
         System.out.println(age2);
         long number = 34534534534l; 
-        System.out.println(number);
+        System.out.println(number); 
         float weight1 = 10.345f; 
         System.out.println(weight1);
         double heigh1 = 34523453.56543453; 
