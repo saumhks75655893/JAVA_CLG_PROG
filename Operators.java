@@ -50,8 +50,8 @@ public class Operators {
         System.out.println(2 & 3);
         System.out.println(2 | 3);
         System.out.println(2 ^ 3);
-        System.out.println(2 << 3);
-        System.out.println(2 >> 3);
+        System.out.println(10 << 5);
+        System.out.println(100 >> 3);
 
     }
 }
