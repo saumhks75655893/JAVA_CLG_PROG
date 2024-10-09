@@ -1,15 +1,15 @@
+// Advanced Questions
 
-// Advanced Questions 
-import java.util.*;
+import java.util.Scanner;
 //  patter 1 :  Butterfly pattern 
 /*
-*        *
-**     **
-***  ***
-*******
-***  ***
-**     **
-*        *
+ *        *
+ **     **
+ ***  ***
+ *******
+ ***  ***
+ **     **
+ *        *
  */
 
 class Pattern1 {
@@ -50,10 +50,10 @@ class Pattern1 {
 
 // pattern 2 : Solid Rhombus
 /*
-     ******
-    ******
-   ******
-  ******
+ ******
+ ******
+ ******
+ ******
  ******
  */
 class Pattern2 {
@@ -121,8 +121,7 @@ class Pattern4 {
         System.out.println("Enter your number : ");
         n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
-            for(int j=1; j<=(n-i); j++)
-            {
+            for (int j = 1; j <= (n - i); j++) {
                 System.out.print(" ");
             }
             for (int j = 1; j <= i; j++) {
@@ -149,15 +148,13 @@ class Pattern5 {
         System.out.println("Enter your number : ");
         n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
-            for(int j=1; j<=(n-i); j++)
-            {
+            for (int j = 1; j <= (n - i); j++) {
                 System.out.print(" ");
             }
             for (int j = i; j >= 1; j--) {
-                System.out.print(j );
+                System.out.print(j);
             }
-            for(int j=2; j<=i; j++)
-            {
+            for (int j = 2; j <= i; j++) {
                 System.out.print(j);
             }
             System.out.println();
@@ -165,14 +162,15 @@ class Pattern5 {
 
     }
 }
+
 // pattern 5 : Diamond pattern
 /*
-   *
+ *
  ***
-*****
-*****
+ *****
+ *****
  ***
-  *
+ *
  */
 class Pattern6 {
     public void display() {
@@ -182,26 +180,24 @@ class Pattern6 {
         n = sc.nextInt();
         // upper part
         for (int i = 1; i <= n; i++) {
-            for(int j=1; j<=(n-i); j++)
-            {
+            for (int j = 1; j <= (n - i); j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j<=(2*i-1); j++) {
+            for (int j = 1; j <= (2 * i - 1); j++) {
                 System.out.print("*");
             }
-        
+
             System.out.println();
         }
         // lower part
-        for (int i = n; i >=1; i--) {
-            for(int j=1; j<=(n-i); j++)
-            {
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= (n - i); j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j<=(2*i-1); j++) {
+            for (int j = 1; j <= (2 * i - 1); j++) {
                 System.out.print("*");
             }
-        
+
             System.out.println();
         }
 

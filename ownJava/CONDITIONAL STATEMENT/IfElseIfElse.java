@@ -1,19 +1,19 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class IfElseIfElse {
     public static void main(String[] args) {
-        int x; 
+        int x;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter you number : ");
         x = sc.nextInt();
 
-        if(x==1){
+        if (x == 1) {
             System.out.println("Hello");
-        }else if(x == 2) {
+        } else if (x == 2) {
             System.out.println("Namaste ");
-        }else if(x ==3)
-        {
+        } else if (x == 3) {
             System.out.println("Banjour");
-        }else{
+        } else {
             System.out.println("invalid number ");
         }
     }

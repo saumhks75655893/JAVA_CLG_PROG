@@ -1,4 +1,3 @@
-
 // Loops : -----------
 
 public class DoWhileWhileForLoop {
@@ -31,18 +30,17 @@ public class DoWhileWhileForLoop {
         // difference between while and do while 
         System.out.println();
         System.out.println();
-        
-        int z = 12; 
-        while(z < 11)
-        {
+
+        int z = 12;
+        while (z < 11) {
             System.out.println("Himanshu kumar");
-            z--; 
+            z--;
         }
 
-        do{
+        do {
             System.out.println("Himanshu kumar");
-            z--; 
-        }while(z < 11); 
+            z--;
+        } while (z < 11);
     }
 
 

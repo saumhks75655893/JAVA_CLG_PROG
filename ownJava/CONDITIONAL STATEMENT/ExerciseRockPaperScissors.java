@@ -1,7 +1,7 @@
+// Exerciese : Rock, Paper , Scissor game
 
-// Exerciese : Rock, Paper , Scissor game 
-
-import java.util.*;
+import java.util.Random;
+import java.util.Scanner;
 
 class RockPaperScissors {
     int computerChoice;

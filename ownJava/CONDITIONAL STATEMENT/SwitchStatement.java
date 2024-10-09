@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Calculator {
     int a;
@@ -59,7 +59,6 @@ public class SwitchStatement {
         //     default:
         //         System.out.println("Invalid button ");
 
-               
 
         // }
     }

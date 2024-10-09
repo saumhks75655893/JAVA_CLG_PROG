@@ -16,12 +16,9 @@ class Car extends Vehicle {
 
     public void show() {
         System.out.println("Car fuel type is : " + ftype);
-        if(sunroof == false)
-        {
+        if (sunroof == false) {
             System.out.println("Car has not sunroof !! ");
-        }
-        else
-        {
+        } else {
             System.out.println("Car has sunroof !! ");
         }
     }

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 // write a code to find out that the given number is a odd or even number.
 class EvenOddNumber {
@@ -19,40 +19,34 @@ class EvenOddNumber {
 
 // Write a code to find out between two number, which is greater, lesser or equal to each other. 
 
-class SmallerGreaterEqualNumber
-{
-    int a; 
-    int b; 
+class SmallerGreaterEqualNumber {
+    int a;
+    int b;
 
-    public void display()
-    {
-        Scanner sc = new Scanner(System.in); 
+    public void display() {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter number 1 : ");
-        a = sc.nextInt(); 
+        a = sc.nextInt();
         System.out.println("Enter second number : ");
-        b = sc.nextInt(); 
+        b = sc.nextInt();
 
-        if(a>b )
-        {
+        if (a > b) {
             System.out.println(a + " is greater than " + b);
-        }
-        else if(a == b)
-        {
+        } else if (a == b) {
             System.out.println(a + " is equal to " + b);
-        }
-        else
-        {
+        } else {
             System.out.println(a + " is smaller than " + b);
         }
     }
 }
+
 public class OddEven {
     public static void main(String[] args) {
-        EvenOddNumber num1 = new EvenOddNumber(); 
+        EvenOddNumber num1 = new EvenOddNumber();
         // num1.evenOddNumber();
 
 
-        SmallerGreaterEqualNumber num = new SmallerGreaterEqualNumber(); 
+        SmallerGreaterEqualNumber num = new SmallerGreaterEqualNumber();
         num.display();
     }
 
