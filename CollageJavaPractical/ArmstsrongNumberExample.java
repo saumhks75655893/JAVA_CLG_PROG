@@ -7,7 +7,7 @@ public class ArmstsrongNumberExample {
     static boolean isArmstrong(int n) {
         int temp, digits = 0, last = 0, sum = 0;
         temp = n;
-        while (n > 0) {
+        while (temp > 0) {
             temp = temp / 10;
             digits++;
         }
@@ -29,14 +29,14 @@ public class ArmstsrongNumberExample {
     public static void main(String[] args) {
         int num;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the limit : ");
+        System.out.print("Enter the limit : ");
         num = sc.nextInt();
         System.out.println("Armstrong Number up to "+num+" are : ");
         for(int i=0; i<=num; i++)
         {
             if(isArmstrong(i))
             {
-                System.out.println(i + " , ");
+                System.out.print(i + " , ");
             }
         }
     }
